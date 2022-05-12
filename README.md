@@ -1,46 +1,39 @@
-# Getting Started with Create React App
+# Hacker News 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Build the front page of HN using TypeScript and ReactJS. https://news.ycombinator.com/ 
 
-## Available Scripts
+Like on Hacker News: 
+- Show the top stories homepage, along with the number of votes for each story 
+- Clicking on story titles should follow the story link 
+- Include the comments link at the bottom of each story 
+- Clicking the comments link should show the comments on the story 
 
-In the project directory, you can run:
+![Image](./src/assests/git_images/img.png)
 
-### `npm start`
+# Rules
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Don't spend more than 3 hours on this exercise 
+- Application code cannot have any dependency other than React.js, so don't use Redux or Mobx 
+- Use React Hook components and don't use class-based components 
+- It's OK to use builders like create-react-app 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+# Stack Technologies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React
+- Typescript
+- Hacker News API
 
-### `npm run build`
+# Testing
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To test the application, you need to enter the following commands:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+You need to clone the repository using the command:`git@github.com:ToxichQQQ/hacker-news.git`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+After the repository has been copied, go to the repository and run the `npm install` command.
 
-### `npm run eject`
+Start the application using the `npm start`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Thanks for your attention
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+You can contact me by this email storozhenko.dev@gmail.com
