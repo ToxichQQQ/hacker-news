@@ -1,0 +1,19 @@
+.header {
+  font-size: 13px;
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.text {
+  color: #828282;
+  font-size: 10px;
+}
+
+.comments {
+  cursor: pointer;
+  text-decoration: underline;
+}
