@@ -10,16 +10,3 @@ export interface IPost {
   score: number;
   by: string;
 }
-
-export interface IComment {
-  by: string;
-  id: number;
-  kids: [];
-  parent: [];
-  text: string;
-  time: number;
-}
-
-export interface NewStories {
-  stories: [];
-}

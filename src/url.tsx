@@ -1,5 +1,5 @@
 import { url } from "./constans";
-import { NewStories, IPost } from "./types/types";
+import { IPost } from "./types/types";
 
 export const getNewPosts = async () => {
   const res = await fetch(`${url}/topstories.json?print=pretty`, {
