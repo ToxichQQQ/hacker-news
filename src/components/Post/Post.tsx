@@ -2,13 +2,13 @@ import React, { FC } from "react";
 import { IPost } from "../../types/types";
 import styles from "./Post.module.css";
 
-interface postComponent {
+interface PostProps {
   post: IPost;
   index: number;
   changeSelectedPost: (value: IPost) => void;
 }
 
-export const Post: FC<postComponent> = ({
+export const Post: FC<PostProps> = ({
   post,
   index,
   changeSelectedPost,

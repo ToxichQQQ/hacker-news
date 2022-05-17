@@ -2,11 +2,11 @@ import React, { FC } from "react";
 import { IPost } from "../../types/types";
 import styles from "./Comment.module.css";
 
-interface IComment {
+interface CommentProps {
   comment: IPost;
 }
 
-export const Comment: FC<IComment> = ({ comment }) => {
+export const Comment: FC<CommentProps> = ({ comment }) => {
   const date = new Date(comment.time * 1000);
   const formattedDate = `${date.getDay()}.${date.getMonth()}.${date.getFullYear()}`;
 

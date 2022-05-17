@@ -4,12 +4,12 @@ import { getPost } from "../../url";
 import { Comment } from "../../components/Comment/Comment";
 import styles from "./CommentPage.module.css";
 
-interface commentPage {
+interface CommentPageProps {
   selectedPost?: IPost;
   backToHomePage: (value: undefined) => void;
 }
 
-export const CommentPage: FC<commentPage> = ({
+export const CommentPage: FC<CommentPageProps> = ({
   selectedPost,
   backToHomePage,
 }) => {

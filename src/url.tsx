@@ -1,4 +1,4 @@
-import { url } from "./constans";
+import { url } from "./constants";
 import { IPost } from "./types/types";
 
 export const getNewPosts = async () => {

@@ -2,12 +2,12 @@ import React, { FC } from "react";
 import { IPost } from "../../types/types";
 import { Post } from "../../components/Post/Post";
 
-interface homePage {
+interface HomePageProps {
   changeSelectedPost: (value: IPost) => void;
   posts: IPost[];
 }
 
-export const HomePage: FC<homePage> = ({ posts, changeSelectedPost }) => {
+export const HomePage: FC<HomePageProps> = ({ posts, changeSelectedPost }) => {
   return (
     <div>
       {posts.length ? (
